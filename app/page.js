@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <CarouselSlider />
       <main className="max-w-screen-xl mx-auto px-5">
-        {/* <Overview /> */}
+        <Overview />
       </main>
     </>
   );

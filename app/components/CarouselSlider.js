@@ -40,8 +40,8 @@ const CarouselSlider = () => {
         </div>
       )}
 
-      {currentIndex === 0 ? (
-        <Link href="https://veterangaragedoor.com/garage-doors/" target="_blank" passHref>
+      {/* {currentIndex === 0 ? ( */}
+        <Link href="https://veterangaragedoor.com/veteran-garage-door-repair-of-katy-tx/" target="_blank" passHref>
           <img
             src={images[currentIndex]}
             alt={`Slide ${currentIndex + 1}`}
@@ -50,14 +50,14 @@ const CarouselSlider = () => {
             // id='firstImg'
           />
         </Link>
-      ) : (
+      {/* ) : (
         <img
-          src={images[currentIndex]}
+          src={images[currentIndex]}d:\Fiverr\isternd\2-b4505t\app\components\Overview.js
           alt={`Slide ${currentIndex + 1}`}
           className="w-full h-[300px] sm:h-[500px] md:h-[600px] xl:min-h-[80vh] xl:max-h-[80vh]"
           onLoad={() => setLoading(false)} // Hide loading overlay when image loaded
         />
-      )}
+      )} */}
 
       <div className="flex items-center justify-center">
         <FaChevronLeft
