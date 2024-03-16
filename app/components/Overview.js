@@ -5,7 +5,7 @@ const Overview = () => {
 
   return (
     <div className="py-16 pt-20" id='overview'>
-      <SectionTitle title="About" />
+      <SectionTitle title="Overview" />
       <div className=''>
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-10'>
           <div className='flex items-center'>
@@ -16,14 +16,12 @@ const Overview = () => {
             </p>
           </div>
           <div className='hover:scale-[1.02] transition-all duration-300'>
-            <img src="/images/2.jpeg" alt="" className='rounded shadow h-[400px] w-full' />
+            <img src="/images/2.jpg" alt="" className='rounded shadow h-[400px] w-full' />
           </div>
         </div>
         <div className='grid grid-cols-2 gap-6 md:gap-10 mt-10'>
           <div className='hover:scale-[1.02] transition-all duration-300'>
-            {/* <a target='_blank' href="https://veterangaragedoor.com/repair/"> */}
               <img src="/images/1.jpeg" alt="" className='rounded shadow w-full' />
-            {/* </a> */}
           </div>
           <div className='hover:scale-[1.02] transition-all duration-300'>
             <img src="/images/3.jpeg" alt="" className='rounded shadow w-full' />

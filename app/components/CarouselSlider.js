@@ -6,10 +6,8 @@ import Link from 'next/link';
 
 const CarouselSlider = () => {
   const images = [
-    '/images/slider/1.jpg',
+    '/images/slider/1.jpeg',
     '/images/slider/2.jpg',
-    '/images/slider/3.jpg',
-    '/images/slider/4.jpg',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
