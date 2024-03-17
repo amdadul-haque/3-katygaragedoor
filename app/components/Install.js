@@ -30,7 +30,7 @@ const garageDoorInstallationContent = [
 const Install = () => {
 
   return (
-    <div className='py-16' id='install'>
+    <div className='py-16 pt-20' id='install'>
       <SectionTitle title='Install'/>
       <div className='grid gap-10 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3'>
         {garageDoorInstallationContent.map((feature, index) => (

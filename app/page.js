@@ -3,6 +3,8 @@ import CarouselSlider from "./components/CarouselSlider";
 import Overview from "./components/Overview";
 import Repair from "./components/Repair";
 import Install from "./components/Install";
+import Replacement from "./components/Replacement";
+import Pricing from "./components/Pricing";
 
 
 export default function Home() {
@@ -11,8 +13,10 @@ export default function Home() {
       <CarouselSlider />
       <main className="max-w-screen-xl mx-auto px-5">
         <Overview />
+        <Pricing />
         <Install />
         <Repair />
+        <Replacement />
       </main>
     </>
   );
