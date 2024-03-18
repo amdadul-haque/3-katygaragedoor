@@ -16,15 +16,26 @@ const Overview = () => {
             </p>
           </div>
           <div className='hover:scale-[1.02] transition-all duration-300'>
-            <img src="/images/2.jpg" alt="" className='rounded shadow h-[400px] w-full' />
+            <a href="https://veterangaragedoor.com/veteran-garage-door-repair-of-katy-tx/" target='_blank'>
+              <img src="/images/2.jpg" alt="" className='rounded shadow h-[400px] w-full' />
+            </a>
           </div>
         </div>
         <div className='grid grid-cols-2 gap-6 md:gap-10 mt-10'>
           <div className='hover:scale-[1.02] transition-all duration-300'>
-              <img src="/images/1.jpeg" alt="" className='rounded shadow w-full' />
+            <img src="/images/1.jpeg" alt="" className='rounded shadow w-full' />
           </div>
           <div className='hover:scale-[1.02] transition-all duration-300'>
             <img src="/images/3.jpeg" alt="" className='rounded shadow w-full' />
+          </div>
+          <div className='hover:scale-[1.02] transition-all duration-300'>
+            <img src="/images/5.jpg" alt="" className='rounded shadow w-full' />
+          </div>
+          <div className='hover:scale-[1.02] transition-all duration-300'>
+            <img src="/images/4.jpeg" alt="" className='rounded shadow w-full' />
+          </div>
+          <div className='hover:scale-[1.02] transition-all duration-300 col-span-2'>
+            <img src="/images/6.jpg" alt="" className='rounded shadow w-full' />
           </div>
         </div>
       </div>
