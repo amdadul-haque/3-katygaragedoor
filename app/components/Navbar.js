@@ -51,6 +51,7 @@ const Navbar = () => {
           <li><a href="#install" className="text-base font-medium hover:text-brand-main transition-all duration-300">Install</a></li>
           <li><a href="#repair" className="text-base font-medium hover:text-brand-main transition-all duration-300">Repair</a></li>
           <li><a href="#replacement" className="text-base font-medium hover:text-brand-main transition-all duration-300">Replacement</a></li>
+          <li><a href="#contact-us" className="text-base font-medium hover:text-brand-main transition-all duration-300">Contact Us</a></li>
         </ul>
       </div>
     </nav >

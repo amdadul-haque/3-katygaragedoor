@@ -5,6 +5,7 @@ import Repair from "./components/Repair";
 import Install from "./components/Install";
 import Replacement from "./components/Replacement";
 import Pricing from "./components/Pricing";
+import ContactUs from "./components/ContactUs";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Install />
         <Repair />
         <Replacement />
+        <ContactUs />
       </main>
     </>
   );
